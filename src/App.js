@@ -5,7 +5,7 @@ import { Article, Brand, CTA, Feature, Navbar  } from "./components";
 const App = () => {
   return (
     <div>
-        <h1>GPT-3</h1>
+        <h1>GPT-4</h1>
     </div>
   )
 }
