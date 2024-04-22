@@ -31,10 +31,14 @@
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
-    top: 1153px;
-    top: 55px;
     font-family: var(--font-family);
     font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
 
 .gpt4_navbar-sign {
