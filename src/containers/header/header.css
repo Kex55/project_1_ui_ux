@@ -18,3 +18,77 @@
     line-height: 75px;
     letter-spacing: -0.04rem;
 }
+
+.gpt4_header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.gpt4_header-content_input {
+    width: 100%;
+    margin: 2rem 1rem;
+    display: flex;
+}
+
+.gpt4_header-content_input input {
+    flex: 2;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    width: 100%;
+    min-height: 50px;
+    border: 2px solid var(--color-footer);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    background: var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+
+}
+
+.gpt4_header-content_input button {
+    flex: 0.6;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    width: 100%;
+    min-height: 50px;
+    background: #ff4820;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+}
+
+.gpt4_header-content_people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.gpt4_header-content_people img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.gpt4_header-content_people p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 0 1rem;
+}
