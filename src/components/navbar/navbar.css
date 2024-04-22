@@ -1,0 +1,22 @@
+.gpt4_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.gpt4_navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt4_navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.gpt4_navbar-links_logo img {
+    width: 62px;
+    height: 16px;
+}
