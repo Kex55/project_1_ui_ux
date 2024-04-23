@@ -3,7 +3,7 @@ import './feature.css';
 
 const Feature = () => {
   return (
-    <div>Feature</div>
+    <div className='gpt4_features-container_feature'></div>
   )
 }
 
