@@ -50,3 +50,20 @@
     line-height: 45px;
     max-width: 510px;
 }
+
+.gpt4_whatgpt4-heading p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.gpt4_whatgpt4-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+

@@ -9,7 +9,7 @@ const WhatGPT4 = () => {
         <Feature/>
       </div>
       <div className='gpt4_whatgpt4-heading'>
-        <h1 className='gradient-text'>The possibilities are beyond your imagination</h1>
+        <h1 className='gradient_text'>The possibilities are beyond your imagination</h1>
         <p>Explore The Library</p>
       </div>
       <div className='gpt4_whatgpt4-container'>
