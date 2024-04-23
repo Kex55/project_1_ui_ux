@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
-    .gpt4_whatgpt3-feature .gpt4_features-container_feature {
+    .gpt4_whatgpt4-feature .gpt4_features-container_feature {
         flex-direction: column;
     }
 
