@@ -1,0 +1,16 @@
+.gpt4_features {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.gpt4_features-heading {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-right: 5rem;   
+}
