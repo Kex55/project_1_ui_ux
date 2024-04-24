@@ -41,6 +41,7 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
+    margin: 1rem 0;
 }
 
 .gpt4_possibility-content p {
@@ -49,4 +50,18 @@
     line-height: 30px;
     color: var(--color-text);
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .gpt4_possibility {
+        flex-direction: column;                   
+    }
+
+    .gpt4_possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt4_possibility-content {
+        margin-top: 2rem;
+    }
 }
