@@ -74,3 +74,40 @@
     line-height: 14px;
     color: #ffffff;
 }
+
+.gpt4_footer-links_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gpt4_footer-links_div h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.gpt4_footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt4_footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt4_footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
