@@ -1,11 +1,18 @@
 import React from 'react'
 import './article.css';
 
-const Article = ({imgUrl}) => {
+const Article = ({imgUrl, date, title}) => {
   return (
     <div className='gpt4_blog-container_article'>
       <div className='gpt4_blog-container_article-image'>
-        <img src={imgUrl} alt="blog image" />
+        <img src={imgUrl} alt="blog" />
+      </div>
+      <div className='gpt4_blog-container_article-content'>
+        <div>
+          <p>{date}</p>
+          <h4>{title}</h4>
+        </div>
+        <p>Read Full Article</p>
       </div>
     </div>
   )
